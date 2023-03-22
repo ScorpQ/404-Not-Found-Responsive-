@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+/* UNIVERSAL CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #333333;
+    --lightDark: #4F4F4F;
+    --headerFont: 'Inconsolata','Arial';
+    --sectionFont: 'Space Mono', 'Arial';
+    --footerFont: 'Montserrat', sans-serif;
+}
+/* ------------------------------------ */
+
+header{
+    padding: 2.5rem 4.8125rem;
+}
+
+header h1{
+    font-family: var(--headerFont);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+
