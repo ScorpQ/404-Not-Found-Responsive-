@@ -23,6 +23,7 @@
 
 body{
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* HEADER  */
@@ -37,7 +38,6 @@ header h1{
     letter-spacing: -0.08em;
     text-transform: uppercase;
     color: var(--dark);
-    width: 133px;
 }
 /* ------------------------------------ */
 
@@ -47,13 +47,14 @@ header h1{
 section{
     display: flex;
     justify-content: center;
-    margin-top: 160px;
-    margin-bottom: 284px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 /* SECTION LEFT */
 section .content-left{
     padding: 0 120px 0 0px;
+    margin: 0 auto;
 }
 section .content-left .img-box img{
     width: 33.7015rem;
@@ -72,7 +73,7 @@ section .content-right h2{
     letter-spacing: -0.035em;
     line-height: 95px;
     color: var(--dark);
-    width: 586px;
+    /*width: 586px;*/
 
    margin-bottom: 18px;
 }
@@ -130,7 +131,7 @@ footer p strong{
     }
     section .content-left{
         padding: 0px;
-     }
+    }
     section{
         flex-direction: column;
         justify-content: center;
@@ -165,5 +166,4 @@ footer p strong{
 
         width: 328px;
     }
-    
 }
