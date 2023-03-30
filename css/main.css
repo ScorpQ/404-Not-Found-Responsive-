@@ -46,15 +46,16 @@ header h1{
 /* SECTION */
 section{
     display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    justify-content: space-evenly;
+    margin: 60px 0px 40px 100px;
+    min-width: max-content;
 }
 
 /* SECTION LEFT */
 section .content-left{
-    padding: 0 120px 0 0px;
+    flex-grow: 1;
     margin: 0 auto;
+    
 }
 section .content-left .img-box img{
     width: 33.7015rem;
@@ -65,6 +66,7 @@ section .content-left .img-box img{
 section .content-right{
     display: flex;
     flex-direction: column;
+    flex-grow: 2;
 }
 section .content-right h2{
     font-family:var(--sectionFont) ;
@@ -73,9 +75,9 @@ section .content-right h2{
     letter-spacing: -0.035em;
     line-height: 95px;
     color: var(--dark);
-    /*width: 586px;*/
+    width: 586px;
 
-   margin-bottom: 18px;
+    margin-bottom: 18px;
 }
 section .content-right p{
     font-family: var(--sectionFont);
